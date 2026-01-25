@@ -1,0 +1,73 @@
+body{
+    background-color: rgba(70, 70, 164, 0.636);
+}
+i{
+    padding-left: 10px;
+}
+.logoImage{
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+li ul{
+    display: inline;
+    list-style: none;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+}
+li:active{
+    background-color: cornflowerblue;
+}
+header {
+    display: inline-block;
+    list-style: none;
+    border: 1px solid black;
+    justify-content: space-between;
+    padding: 20px;  
+    width:auto;
+    
+}
+li a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+header a:hover{
+    background-color: rgb(48, 43, 43);
+}
+.Maintitle{
+    text-align: center;
+}
+.roadMapSection{
+    padding: 10px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.RBtn{
+  padding: 10px;
+  color: black;
+  background-color: darkgray;
+}
+.RBtn:hover{
+    background-color: rgb(65, 62, 62);
+}
+#roadMapH2 {
+    text-align: center;
+}
+
+#roadMapList {
+    list-style-type: none;
+    
+}
+
+#roadMapList li {
+    text-align: center;
+}
